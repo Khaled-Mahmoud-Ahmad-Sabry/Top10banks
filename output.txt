@@ -1,0 +1,49 @@
+                                      Name  MC_USD_Billion
+0                           JPMorgan Chase          432.92
+1                          Bank of America          231.52
+2  Industrial and Commercial Bank of China          194.56
+3               Agricultural Bank of China          160.68
+4                                HDFC Bank          157.91
+5                              Wells Fargo          155.87
+6                                     HSBC          148.90
+7                           Morgan Stanley          140.83
+8                  China Construction Bank          139.82
+9                            Bank of China          136.81
+
+                                      Name  MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_EGP_Billion
+0                           JPMorgan Chase          432.92          337.68          398.29        20399.19
+1                          Bank of America          231.52          180.59          213.00        10909.22
+2  Industrial and Commercial Bank of China          194.56          151.76          179.00         9167.67
+3               Agricultural Bank of China          160.68          125.33          147.83         7571.24
+4                                HDFC Bank          157.91          123.17          145.28         7440.72
+5                              Wells Fargo          155.87          121.58          143.40         7344.59
+6                                     HSBC          148.90          116.14          136.99         7016.17
+7                           Morgan Stanley          140.83          109.85          129.56         6635.91
+8                  China Construction Bank          139.82          109.06          128.63         6588.32
+9                            Bank of China          136.81          106.71          125.87         6446.49
+
+SELECT * FROM Largest_banks
+                                      Name  MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_EGP_Billion
+0                           JPMorgan Chase          432.92          337.68          398.29        20399.19
+1                          Bank of America          231.52          180.59          213.00        10909.22
+2  Industrial and Commercial Bank of China          194.56          151.76          179.00         9167.67
+3               Agricultural Bank of China          160.68          125.33          147.83         7571.24
+4                                HDFC Bank          157.91          123.17          145.28         7440.72
+5                              Wells Fargo          155.87          121.58          143.40         7344.59
+6                                     HSBC          148.90          116.14          136.99         7016.17
+7                           Morgan Stanley          140.83          109.85          129.56         6635.91
+8                  China Construction Bank          139.82          109.06          128.63         6588.32
+9                            Bank of China          136.81          106.71          125.87         6446.49
+
+SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+   AVG(MC_GBP_Billion)
+0              148.187
+
+SELECT Name from Largest_banks LIMIT 5
+                                      Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
+

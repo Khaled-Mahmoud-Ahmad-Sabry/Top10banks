@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+Banks.db
+code_log.txt
+Largest_banks_data.csv
+output.txt
