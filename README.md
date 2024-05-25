@@ -14,13 +14,13 @@ To set up the project, clone the repository and install the required dependencie
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/project-name.git
+git clone https://github.com/KhaledMSabry/Top_10_banks.git
 
 # Navigate to the project directory
-cd project-name
+cd Top_10_banks
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the main script to execute the ETL process
-python src/main.py
+python main.py
