@@ -14,10 +14,10 @@ To set up the project, clone the repository and install the required dependencie
 
 ```bash
 # Clone the repository
-git clone https://github.com/KhaledMSabry/Top_10_banks.git
+git clone https://github.com/KhaledMSabry/top-10-banks.git
 
 # Navigate to the project directory
-cd Top_10_banks
+cd top-10-banks
 
 # Install dependencies
 pip install -r requirements.txt
